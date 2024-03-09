@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const db = mongoose.connect('mongodb://localhost/bookAPI', {
+const db = mongoose.connect('mongodb+srv://jain:jain@cluster0.rgx2u.mongodb.net/bookAPI?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     });
